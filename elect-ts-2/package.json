@@ -1,0 +1,22 @@
+{
+  "name": "elect-ts-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "start": "npm run build && electron ./dist/main.js"
+  },
+  "keywords": [],
+  "author": "xiao pang",
+  "license": "ISC",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.21.0",
+    "@typescript-eslint/parser": "^5.21.0",
+    "electron": "^18.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.27"
+  }
+}
